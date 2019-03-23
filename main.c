@@ -1,10 +1,12 @@
 #include <stdio.h>
 int main()
 {
-	double A , B , C;
-	printf("\nEnter A\n");
-	scanf("%d",&A);
-	printf("Enter B\n");
-	scanf("%d",&B);
-	return 0;
+    int A , B , C;
+    printf("\nEnter A\n");
+    scanf("%d",&A);
+    printf("Enter B\n");
+    scanf("%d",&B);
+    C=A+B;
+    printf("%d + %d = %d\n",A,B,C);
+    return 0;
 }
