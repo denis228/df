@@ -8,5 +8,7 @@ int main()
     scanf("%d",&B);
     C=A+B;
     printf("%d + %d = %d\n",A,B,C);
+    C=A-B;
+    printf("%d - %d = %d\n",A,B,C);
     return 0;
 }
